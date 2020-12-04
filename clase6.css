@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	background-image:url(pintura.jpeg);
+	background-size: cover;
+}
+nav{
+	width: 100%;
+	margin: 0 auto;
+}
+ul{
+	list-style-type:none;
+	padding: 0px;
+	margin: 0px;
+}
+ul li{
+	float: right;
+}
+li a{
+	text-decoration: none;
+	background-color: black;
+	opacity: 0.7;
+	color: white;
+	text-transform: uppercase;
+	display: block;
+	padding: 15px 123px;
+}
+li a:hover{
+	background-color: #616EAC;
+	color: white;
+}
+li ul{
+	position: absolute;
+	display: none;
+}
+li:hover>ul{
+		display: block;
+}
+li ul li{
+	float: none;
+}
+#centro{
+	width: 85%;
+	height: 300px;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 5em;
+	color: white;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	margin-top: 15%; 
+}
+img{
+	height: 80px;
+
+}
+#flechas{
+	display: flex;
+	min-height: 100px;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 20px;
+}
+button{
+	width: 20%;
+	margin-left: 3%;
+	height: 30px;
+	border: 1px solid #616EAC;
+	background-color:black;
+	opacity: 0.8;
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+}
+#botoncitos{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
